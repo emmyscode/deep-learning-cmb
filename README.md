@@ -1,4 +1,4 @@
 # deep-learning-cmb
 Final Project for CS230: Deep Learning
 
-This is the site for my work on inpainting the cosmic microwave background!
+The Cosmic Microwave Background (CMB) is a faint electromagnetic radiation left over from the early universe and its measurement provides cosmologists with critical information about the origins and development of the cosmos. Due to its weak signal, experimentally retrieved data can often be contaminated by extragalactic radio sources and galactic dust, leading to incomplete portions on CMB maps. Inpainting, or restoring images missing patches of pixels, has seen marked progress with the application of deep learning algorithms like Generative Adversarial Networks (GANs) and Partial Convolutional Neural Networks (PCNN). Employing these tools, I reconstruct cropped, square sections of maps, cut along the equitorial plane, and overlayed with irregular masking.
