@@ -22,9 +22,10 @@ class MapSlicer(object):
     
     def cut_map(self, rot, res=900, out_put_file = None):
         """
-        Returns map cut from desired region from the given longitudinal and latitudinal ranges (assuming small enough for flat sky limit)"
+        Returns map cut from desired region from the given longitudinal and latitudinal ranges (assuming small engough for flat 
+        sky limit)"
         """
-        map_cut=cartview(self.map, rot=rot,lonra[-10,10],latra[-5,5],xsize=res,ysize=res,return_projected_map=True)
+        map_cut=cartview(self.map, rot=rot,lonra=[-10,10],latra=[-5,5],xsize=res,ysize=res,return_projected_map=True)
         close()
         return map_cut
     
