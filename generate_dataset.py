@@ -1,5 +1,4 @@
 from __future__ import division
-
 import os
 import numpy as np
 
@@ -8,11 +7,11 @@ matplotlib.use('Agg')
 import matplotlib.pyplot as plt
 from matplotlib.colors import ListedColormap
 
-from argparse import ArgumentParser
+from optparse import OptionParser
 from libs.Map_Slicer import MapSlicer
 from sklearn.model_selection import train_test_split
 
-parser = ArgumentParser()
+parser = OptionParser()
 parser.add_option("--sv_dir",
                   dest="sv_dir", default='datasets',
                   help="output file")
